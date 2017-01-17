@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <link rel="stylesheet" type="text/css" href="css/leaflet.css" />
-    <link rel="stylesheet" type="text/css" href="css/maps.css" />
-    <title>Maps</title>
-  </head>
-  <body>
 
-    <div class="header">
-      <img align="left" src="img/maps.png">
-      <span>Mapas con Geolocalización</span>
-    </div>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/leaflet.css" />
+        <link rel="stylesheet" type="text/css" href="css/maps.css" />
+        <!-- <allow-navigation href="http://*/*" /> -->
+        <!-- <allow-navigation href="http://*/*" /> -->
+        <!-- <allow-navigation href="*" /> -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com; img-src *">
+        <title>Maps</title>
+    </head>
 
-    <div id="map"></div>
+    <body>
 
-    <div class="footer">
-      Creando Apps. Aprende a programar aplicaciones móviles.
-    </div>
+        <div class="header">
+            <img align="left" src="img/maps.png">
+            <span>Mapas con Geolocalización javier desdeocalhost</span>
+        </div>
 
-    <script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="js/fastclick.js"></script>
-    <script type="text/javascript" src="js/leaflet.js"></script>
-    <script type="text/javascript" src="js/maps.js"></script>
-  </body>
+        <div id="map"></div>
+
+        <div class="footer">
+            Creando Apps. Aprende a programar aplicaciones móviles.
+        </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/fastclick.js"></script>
+        <script type="text/javascript" src="js/leaflet.js"></script>
+        <script type="text/javascript" src="js/maps.js"></script>
+    </body>
+
 </html>
